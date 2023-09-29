@@ -1,0 +1,369 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "IONIC7 API",
+    "dateExported": "2023-09-29T08:05:29.262Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "ff2799fd-1bc6-4bf5-80d7-f23a9313477b",
+            "colId": "9093a854-66ca-4d55-aa84-93b4f9018f1f",
+            "containerId": "",
+            "name": "Login",
+            "url": "https://shamo-backend.app/api/login",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-09-29T02:32:36.678Z",
+            "modified": "2023-09-29T07:57:52.603Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "email",
+                        "value": "a@a.com"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "abfdad25-2117-48e0-91e1-c8810a37bbc7",
+            "colId": "9093a854-66ca-4d55-aa84-93b4f9018f1f",
+            "containerId": "",
+            "name": "Register",
+            "url": "https://ionic7.app/api/register",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-09-29T02:32:36.679Z",
+            "modified": "2023-09-29T07:58:07.760Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "a"
+                    },
+                    {
+                        "name": "email",
+                        "value": "a@a.com"
+                    },
+                    {
+                        "name": "username",
+                        "value": "a"
+                    },
+                    {
+                        "name": "password",
+                        "value": "1234"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "0813"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "c4b2ebe7-c2e6-4a99-9a1c-e1faf47dbfa3",
+            "colId": "9093a854-66ca-4d55-aa84-93b4f9018f1f",
+            "containerId": "",
+            "name": "Logout",
+            "url": "https://ionic7.app/api/logout",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-09-29T02:32:36.680Z",
+            "modified": "2023-09-29T07:58:14.894Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer 6|fwH9u544PMfCCielqxeVykxUaXhCU6vhMjNqDwhN"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "13046567-0d2b-47b9-83bf-cf4095678eae",
+            "colId": "9093a854-66ca-4d55-aa84-93b4f9018f1f",
+            "containerId": "",
+            "name": "Update Profile",
+            "url": "https://ionic7.app/api/user",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-09-29T02:32:36.681Z",
+            "modified": "2023-09-29T07:58:19.862Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer 7|3CnhqxxjI8eE9nTssSQUEvi5sEdtTmTqLkNneavz"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Jennie Kimi Hime"
+                    },
+                    {
+                        "name": "email",
+                        "value": "jennie.kim@blackpink.co"
+                    },
+                    {
+                        "name": "username",
+                        "value": "jenniekim"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "123123123"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "3bd1626c-7b5e-405b-beb6-5819f6e9ab57",
+            "colId": "9093a854-66ca-4d55-aa84-93b4f9018f1f",
+            "containerId": "",
+            "name": "User",
+            "url": "https://ionic7.app/api/user",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-09-29T02:32:36.682Z",
+            "modified": "2023-09-29T07:58:25.684Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer 2|XRAYejf6QTdqTUmQHT1mDnL3wR71mHQptmac16M2"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "998c27f7-1ea5-45d7-ad69-4f68bce4ae3f",
+            "colId": "9093a854-66ca-4d55-aa84-93b4f9018f1f",
+            "containerId": "",
+            "name": "Products",
+            "url": "https://ionic7.app/api/products",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2023-09-29T02:32:36.683Z",
+            "modified": "2023-09-29T07:39:26.224Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "1",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "limit",
+                    "value": "6",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "name",
+                    "value": "Nike",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "description",
+                    "value": "",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "price_from",
+                    "value": "1",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "price_to",
+                    "value": "100000",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "tags",
+                    "value": "popular",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "categories",
+                    "value": "1",
+                    "isDisabled": true,
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "6e19499a-52de-4edd-84bd-b273cf7f9a15",
+            "colId": "9093a854-66ca-4d55-aa84-93b4f9018f1f",
+            "containerId": "",
+            "name": "Product Categories",
+            "url": "https://ionic7.app/api/categories?show_product=1",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2023-09-29T02:32:36.684Z",
+            "modified": "2023-09-29T07:40:20.982Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "1",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "limit",
+                    "value": "6",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "name",
+                    "value": "Nike",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "show_product",
+                    "value": "1",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "2acefa35-803c-478b-a703-4276a4fbe35b",
+            "colId": "9093a854-66ca-4d55-aa84-93b4f9018f1f",
+            "containerId": "",
+            "name": "Transaction",
+            "url": "https://ionic7.app/api/transactions",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2023-09-29T02:32:36.685Z",
+            "modified": "2023-09-29T07:58:39.469Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer 2|XRAYejf6QTdqTUmQHT1mDnL3wR71mHQptmac16M2"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "1",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "limit",
+                    "value": "6",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "status",
+                    "value": "PENDING",
+                    "isDisabled": true,
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "cfef89a0-9241-4d9d-a1b5-09cdfcb88099",
+            "colId": "9093a854-66ca-4d55-aa84-93b4f9018f1f",
+            "containerId": "",
+            "name": "Checkout",
+            "url": "https://ionic7.app/api/checkout",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2023-09-29T02:32:36.686Z",
+            "modified": "2023-09-29T07:55:41.706Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Bearer 2|XRAYejf6QTdqTUmQHT1mDnL3wR71mHQptmac16M2"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"address\": \"Kota Cimahi\",\n    \"items\": [\n        {\n            \"id\": 1,\n            \"quantity\": 2\n        },\n        {\n            \"id\": 2,\n            \"quantity\": 2\n        },\n        {\n            \"id\": 3,\n            \"quantity\": 2\n        }\n    ],\n    \"status\": \"PENDING\",\n    \"total_price\": 2000,\n    \"shipping_price\": 100\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
